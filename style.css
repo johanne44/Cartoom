@@ -1,0 +1,96 @@
+     * {
+         box-sizing: border-box;
+      }
+      html, body {
+        background-image:conic-gradient(navy,orange,black,skyblue,navy);
+         margin: 0;
+         padding: 0;
+      }
+      .row::after {
+         content: "";
+         display: block;
+         clear: both;
+      }
+      [class*="col-"] {
+         width: 100%;
+         float: left;
+      }
+      @media only screen and (min-width: 480px) {
+         .col-md-1 { width: 8.33333333% }
+         .col-md-2 { width: 16.66666667% }
+         .col-md-3 { width: 25% }
+         .col-md-4 { width: 33.33333333% }
+         .col-md-5 { width: 41.66666667% }
+         .col-md-6 { width: 50% }
+         .col-md-7 { width: 58.33333333% }
+         .col-md-8 { width: 66.66666667% }
+         .col-md-9 { width: 75% }
+         .col-md-10 { width: 83.33333333% }
+         .col-md-11 { width: 91.66666667% }
+         .col-md-12 { width: 100% }
+      }
+      @media only screen and (min-width: 768px) {
+         .col-l-1 { width: 8.33333333% }
+         .col-l-2 { width: 16.66666667% }
+         .col-l-3 { width: 25% }
+         .col-l-4 { width: 33.33333333% }
+         .col-l-5 { width: 41.66666667% }
+         .col-l-6 { width: 50% }
+         .col-l-7 { width: 58.33333333% }
+         .col-l-8 { width: 66.66666667% }
+         .col-l-9 { width: 75% }
+         .col-l-10 { width: 83.33333333% }
+         .col-l-11 { width: 91.66666667% }
+         .col-l-12 { width: 100% }
+      }
+      /* design the layout */
+      header, footer {
+         padding: 15px;
+         color: skyblue;
+         background-image:url("0.jpg");
+         background-size:cover;
+         background-repeat:no-repeat;
+         justify-content:center;
+         text-align: center;
+      }
+      .main, .aside {
+         padding: 15px;
+      }
+      .main > p {
+         text-align: justify;
+      }
+      .aside > div {
+        overflow:scroll;
+         border: 2px solid black;
+         border-radius: 5px;
+         padding: 15px;
+      }
+
+      .menu {
+         padding: 10px;
+      }
+      .menu > ul {
+         padding: 0;
+         margin: 0;
+         list-style-type: none;
+      }
+      .menu > ul > li {
+         background: navy;
+         width: 100%;
+         margin-top: 5px;
+         padding: 10px;
+         font-size: 120%;
+         transition-duration: 1s;
+      }
+      .menu > ul > li:hover {
+         background:orange;
+      }
+      .menu > ul > li > a {
+         text-decoration: none; /* remove underline */
+         color: #f8f9f9;
+      }
+      img{
+        height:100px;
+        width:150px;
+        border-radius:50%;
+      }
