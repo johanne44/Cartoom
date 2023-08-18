@@ -6,7 +6,7 @@
          margin: 0;
          padding: 0;
         border-image: linear-gradient(orange , navy) 27 / 35px;
-
+          border-image-outset: 15px;
       }
       .row::after {
          content: "";
