@@ -5,7 +5,7 @@
         background-image:conic-gradient(navy,orange,black,skyblue,navy);
          margin: 0;
          padding: 0;
-        border-image: linear-gradient(red, blue) 27 / 35px;
+        border-image: linear-gradient(orange , navy) 27 / 35px;
 
       }
       .row::after {
