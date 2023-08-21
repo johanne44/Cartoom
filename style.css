@@ -47,7 +47,7 @@
       }
       /* design the layout */
       header, footer {
-         padding: 10px;
+         padding: 5px;
          color: skyblue;
          background-image:url("0.jpg");
          background-size:cover;
