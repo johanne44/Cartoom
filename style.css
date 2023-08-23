@@ -1,4 +1,4 @@
-:@import "https://fonts.googleapis.com/css?family=Rancho&effect=fire-animation";
+@import "https://fonts.googleapis.com/css?family=Rancho&effect=fire-animation";
 * {
          box-sizing: border-box;
       }
@@ -6,6 +6,8 @@
         background-image:conic-gradient(navy,orange,black,skyblue,navy);
          margin: 0;
          padding: 0;
+        border-image: linear-gradient(orange , navy) 27 / 35px;
+          border-image-outset: 15px;
       }
       .row::after {
          content: "";
@@ -46,7 +48,7 @@
       }
       /* design the layout */
       header, footer {
-         padding: 10px;
+         padding: 5px;
          color: skyblue;
          background-image:url("0.jpg");
          background-size:cover;
@@ -85,7 +87,7 @@
       }
       .menu > ul > li:hover {
          background:tomato;
-               }
+      }
       .menu > ul > li > a {
          text-decoration: none; /* remove underline */
          color: #f8f9f9;
@@ -96,13 +98,11 @@
         border-radius:50%;
       }
  span{
-       font-family: Rancho;
- }
-h3{
-    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+        background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
         -webkit-background-clip: text;
         -moz-background-clip: text;
         background-clip: text;
-        color: transparent;  
-         font-size:10px;
-}
+        color: transparent;
+       font-family: Rancho;
+       font-size: 60px;
+ }
