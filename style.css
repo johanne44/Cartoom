@@ -98,11 +98,6 @@
         border-radius:50%;
       }
  span{
-        background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
-        -webkit-background-clip: text;
-        -moz-background-clip: text;
-        background-clip: text;
-        color: transparent;
        font-family: Rancho;
        font-size: 60px;
  }
