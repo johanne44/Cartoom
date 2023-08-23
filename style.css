@@ -6,8 +6,6 @@
         background-image:conic-gradient(navy,orange,black,skyblue,navy);
          margin: 0;
          padding: 0;
-        border-image: linear-gradient(orange , navy) 17/ 20px;
-          border-image-outset: 5px;
       }
       .row::after {
          content: "";
