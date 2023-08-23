@@ -1,4 +1,5 @@
-     * {
+@import "https://fonts.googleapis.com/css?family=Rancho&effect=fire-animation";
+* {
          box-sizing: border-box;
       }
       html, body {
@@ -102,4 +103,6 @@
         -moz-background-clip: text;
         background-clip: text;
         color: transparent;
+       font-family: Rancho;
+       font-size: 60px;
  }
