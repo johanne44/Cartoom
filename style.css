@@ -46,7 +46,7 @@
       }
       /* design the layout */
       header, footer {
-         padding: 1px;
+         padding: 10px;
          color: skyblue;
          background-image:url("0.jpg");
          background-size:cover;
@@ -104,5 +104,5 @@ h3{
         -moz-background-clip: text;
         background-clip: text;
         color: transparent;  
-         font-size:50px;
+         font-size:10px;
 }
