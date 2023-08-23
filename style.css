@@ -6,8 +6,8 @@
         background-image:conic-gradient(navy,orange,black,skyblue,navy);
          margin: 0;
          padding: 0;
-        border-image: linear-gradient(orange , navy) 27 / 35px;
-          border-image-outset: 15px;
+        border-image: linear-gradient(orange , navy) 17/ 20px;
+          border-image-outset: 5px;
       }
       .row::after {
          content: "";
@@ -48,7 +48,7 @@
       }
       /* design the layout */
       header, footer {
-         padding: 5px;
+         padding: 1px;
          color: skyblue;
          background-image:url("0.jpg");
          background-size:cover;
