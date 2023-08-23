@@ -1,4 +1,4 @@
-@import "https://fonts.googleapis.com/css?family=Rancho&effect=fire-animation";
+:@import "https://fonts.googleapis.com/css?family=Rancho&effect=fire-animation";
 * {
          box-sizing: border-box;
       }
@@ -87,7 +87,7 @@
       }
       .menu > ul > li:hover {
          background:tomato;
-      }
+               }
       .menu > ul > li > a {
          text-decoration: none; /* remove underline */
          color: #f8f9f9;
@@ -100,3 +100,10 @@
  span{
        font-family: Rancho;
  }
+h2{
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+        color: transparent;     
+}
