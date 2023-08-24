@@ -6,7 +6,6 @@
         background-image:conic-gradient(navy,orange,black,skyblue,navy);
          margin: 0;
          padding: 0;
-        border-image:repeating-radial-gradient(red 20%, yellow 40%, green 40%);
       }
       .row::after {
          content: "";
