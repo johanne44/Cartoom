@@ -3,6 +3,6 @@
          if(currentColor == "#66FFFF") {
             element.style.backgroundColor = "navy";
          } else {
-            element.style.backgroundColor = "skyblue"; 
+            element.style.backgroundColor = "#66FFFF"; 
          }
       }
