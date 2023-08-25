@@ -3,7 +3,7 @@
          box-sizing: border-box;
       }
       html, body {
-        background-image:conic-gradient(navy,orange,black,skyblue,navy);
+        background-image:conic-gradient(orange,black,skyblue,#33CCFF);
          margin: 0;
          padding: 0;
          overflow:scroll;      
