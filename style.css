@@ -100,7 +100,7 @@ span{
       background-clip: text;
         color: transparent;
        font-family: Rancho;
-       font-size: 160px;
+       font-size:10vw;
 }
 h3{
   background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
