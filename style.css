@@ -3,7 +3,7 @@
          box-sizing: border-box;
       }
       html, body {
-        background-image:conic-gradient( #33CCFF,orange,black,skyblue,#33CCFF);
+        background-image:conic-gradient(navy,orange,black,skyblue,navy);
          margin: 0;
          padding: 0;
          overflow:scroll;      
@@ -77,7 +77,7 @@
          list-style-type: none;
       }
       .menu > ul > li {
-         background:#33CCFF;
+         background: navy;
          width: 100%;
          margin-top: 5px;
          padding: 10px;
@@ -96,10 +96,12 @@
         width:150px;
         border-radius:50%;
       }
- span{
+span{
+      background-clip: text;
+        color: transparent;
        font-family: Rancho;
        font-size: 160px;
- }
+}
 h3{
   background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
         -webkit-background-clip: text;
