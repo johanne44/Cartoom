@@ -107,7 +107,7 @@
 .circles{
     position: absolute;
     top: 0;
-    left: 0;
+    left: 50%;
     width: 25%;
     height:25%;
     overflow:auto;
