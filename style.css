@@ -57,7 +57,7 @@
       }
   #clock{
   	left:15%;
-    top:1%;
+    top:0;
       border-style: 10px outset;
    z-index:1;
    background-image: linear-gradient(transparent, #FFA000);
@@ -111,8 +111,8 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vw;
     overflow: hidden;
 }
 
@@ -120,34 +120,34 @@
     position: absolute;
     display: block;
     list-style: none;
-    width: 20px;
-    height: 20px;
+    width: 20vw;
+    height: 20vw;
     background: rgba(255, 255, 255, 0.2);
     animation: animate 25s linear infinite;
-    bottom: -150px;
+    bottom: -150ve;
     
 }
 
 .circles li:nth-child(1){
-    left: 25%;
-    width: 80px;
-    height: 80px;
+    left: 25vw; 
+    width: 80vw;
+    height: 80vw;
     animation-delay: 0s;
 }
 
 
 .circles li:nth-child(2){
-    left: 10%;
-    width: 20px;
-    height: 20px;
+    left: 10vw;
+    width: 20vw;
+    height: 20vw;
     animation-delay: 2s;
     animation-duration: 12s;
 }
 
 .circles li:nth-child(3){
-    left: 70%;
-    width: 20px;
-    height: 20px;
+    left: 70vw;
+    width: 20vw;
+    height: 20vw;
     animation-delay: 4s;
 }
 
@@ -215,7 +215,7 @@
     }
 
     100%{
-        transform: translateY(-1000px) rotate(720deg);
+        transform: translateY(-1000vw) rotate(720deg);
         opacity: 0;
         border-radius: 50%;
     }
@@ -224,8 +224,8 @@
   
 
       img{
-        height:100px;
-        width:150px;
+        height:100vw;
+        width:150vw;
         border-radius:50%;
       }
 span{
