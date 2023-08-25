@@ -7,31 +7,10 @@
          }
       }
 
-setInterval(displayclock,500);
-
-
-function displayclock(){
-        var time = new Date();
-        var hrs = time.getHours();
-        var min = time.getMinutes();
-        var sec = time.getSeconds();
-        
-        if (hrs > 12){
-                hrs = hrs - 12;
-        
-       
-}
-
-if(hrs == 0){
-        hrs = 12;
-
-}
-if (hrs < 10 ){
-        hrs = '0' + hrs; }
-        if (min < 10 ){
-        min = '0' + min; }
-        if (sec < 10) {
-                sec = '0' + sec; }
-
-document.getElementById('clock').innerHTML = hrs + ':' + min + ':' + sec;
+var date = new Date();
+var heure = date.getHours();
+if(heure => 7 && heure < 20){
+   $(body).css("background-image", "url(http://www.serveur.ext/lien_image_journee)");
+}else{
+   $(body).css("background-image", "url(http://www.serveur.ext/lien_image_nuit)");
 }
