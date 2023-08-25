@@ -55,21 +55,6 @@
          justify-content:center;
          text-align: center;
       }
-  #clock{
-  	left:15%;
-    top:1%;
-      border-style: 10px outset;
-   z-index:1;
-   background-image: linear-gradient(transparent, #FFA000);
-   width:150px;
-   height:50px;
-   border-radius:50px;
-        box-shadow: 10px 10px 10px 0px white;
-    font-weight: italic;
-       color:#B98487;
-       font-size:30px;
-}
-
       .main, .aside {
          padding: 15px;
       }
