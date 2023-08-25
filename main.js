@@ -10,7 +10,8 @@
 var date = new Date();
 var heure = date.getHours();
 if(heure => 7 && heure < 20){
-   $(body).css("background-image", "url(http://www.serveur.ext/lien_image_journee)");
+   $(body).css("background-image", "url(images - 2023-08-25T102916.338.jpeg )";
 }else{
-   $(body).css("background-image", "url(http://www.serveur.ext/lien_image_nuit)");
+   $(body).css("background-image","url(images - 2023-08-25T102916.338.jpeg )";
+}else{
 }
