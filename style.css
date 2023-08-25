@@ -48,7 +48,7 @@
       /* design the layout */
       header, footer {
          padding: 1px;
-         color: skyblue;
+         color:#66FFFF;
          background-image:url("0.jpg");
          background-size:cover;
          background-repeat:no-repeat;
