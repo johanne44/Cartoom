@@ -1,6 +1,6 @@
       function changeColor(element) {
          var currentColor = element.style.backgroundColor;
-         if(currentColor == "skyblue") {
+         if(currentColor == "#66FFFF") {
             element.style.backgroundColor = "navy";
          } else {
             element.style.backgroundColor = "skyblue"; 
