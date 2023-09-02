@@ -2,9 +2,9 @@
 * {
          box-sizing: border-box;
       }
-      html, body {
-        background-image:conic-gradient(navy,orange,black,#66FFFF,navy);
-         margin: 0;
+      html,body{
+         background-image:url("0.jpg");
+         margin:0:
          padding: 0;
          overflow:scroll;      
       }
@@ -14,7 +14,7 @@
          clear: both;
       }
       [class*="col-"] {
-         width: 100%;
+         width: 100
          float: left;
       }
       @media only screen and (min-width: 480px) {
@@ -47,9 +47,9 @@
       }
       /* design the layout */
       header, footer {
+        background-image:conic-gradient(navy,orange,black,#66FFFF,navy);
          padding: 1px;
          color:#66FFFF;
-         background-image:url("0.jpg");
          background-size:cover;
          background-repeat:no-repeat;
          justify-content:center;
