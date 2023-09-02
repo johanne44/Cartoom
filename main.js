@@ -1,17 +1,13 @@
-    function changeColor(element) {
-         var currentColor = element.style.backgroundColor;
-         if(currentColor == "#66FFFF") {
-            element.style.backgroundColor = "navy";
-         } else {
-            element.style.backgroundColor = "#66FFFF"; 
-         }
-      }
+if(hrs == 0){
+        hrs = 12;
 
-var date = new Date();
-var heure = date.getHours();
-if(heure => 7 && heure < 20){
-   $(body).css("background-image", "url(images - 2023-08-25T102916.338.jpeg )";
-}else{
-   $(body).css("background-image","url(images - 2023-08-25T102916.338.jpeg )";
-}else{
+}
+if (hrs < 10 ){
+        hrs = '0' + hrs; }
+        if (min < 10 ){
+        min = '0' + min; }
+        if (sec < 10) {
+                sec = '0' + sec; }
+
+document.getElementById('clock').innerHTML = hrs + ':' + min + ':' + sec;
 }
