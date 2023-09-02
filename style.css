@@ -57,6 +57,7 @@
       }
   #clock{
   	left:15%;
+           z-index:3;
     top:1%;
       border-style: 10px outset;
    background-image: linear-gradient(transparent, #FFA000);
