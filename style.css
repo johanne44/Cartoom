@@ -1,10 +1,10 @@
-@import "https://fonts.googleapis.com/css?family=Rancho&effect=fire-animation";
+g@import "https://fonts.googleapis.com/css?family=Rancho&effect=fire-animation";
 * {
          box-sizing: border-box;
       }
-      html,body{
-         background-image:url("0.jpg");
-         margin:0:
+      html, body {
+        background-image:conic-gradient(navy,orange,black,#66FFFF,navy);
+         margin: 0;
          padding: 0;
          overflow:scroll;      
       }
@@ -14,7 +14,7 @@
          clear: both;
       }
       [class*="col-"] {
-         width: 100
+         width: 100%;
          float: left;
       }
       @media only screen and (min-width: 480px) {
@@ -47,9 +47,9 @@
       }
       /* design the layout */
       header, footer {
-        background-image:conic-gradient(navy,orange,black,#66FFFF,navy);
          padding: 1px;
          color:#66FFFF;
+         background-image:url("0.jpg");
          background-size:cover;
          background-repeat:no-repeat;
          justify-content:center;
@@ -57,9 +57,9 @@
       }
   #clock{
   	left:15%;
-           z-index:3;
     top:1%;
       border-style: 10px outset;
+   z-index:1;
    background-image: linear-gradient(transparent, #FFA000);
    width:150px;
    height:50px;
